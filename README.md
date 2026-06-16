@@ -6,6 +6,7 @@ Homebrew cask for [BoltPage](https://github.com/Silverfell/BoltPage), a fast, li
 
 ```sh
 brew tap Silverfell/tap
+brew trust --cask Silverfell/tap/boltpage   # third-party taps require an explicit trust step
 brew install --cask boltpage
 ```
 
